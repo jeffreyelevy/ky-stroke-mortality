@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset=utf-8 />
+	<title>Kentucky Stroke Mortality & Access to Stroke-Certified Hospitals
+	</title>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background: #f5f5f5;
+			font-family: "Noto Sans", sans-serif;
+			color: #3d3d3d;
+		}
+
+		section {
+			/* width: 960px; */
+			width: 80%;
+			margin: 20px auto;
+		}
+
+		h1 {
+			font-family: Lora, serif;
+			letter-spacing: .04em;
+		}
+
+		h2 {
+			font-family: Lora, serif;
+			letter-spacing: .04em;
+		}
+
+		p {
+			font-size: 1em;
+			line-height: 1.5em;
+		}
+
+		a {
+			color: #005daa;
+			font-weight: bold;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		ul {
+			padding-left: 20px;
+		}
+
+		li {
+			margin: 10px 0
+		}
+
+		#map {
+			width: 100%;
+			margin: 10px auto;
+			border: 2px solid #d3d3d3;
+		}
+
+		/* add custom style class here */
+
+	</style>
+</head>
+
+<body>
+	<section>
+
+		<!-- This is an HTML comment. Find the comments below and follow the instructions. -->
+
+		<h1>Kentucky Stroke Mortality & Access to Stroke-Certified Hospitals</h1>
+
+		<div id='map'>
+				<!-- Add your custom iframe 'Embed it' code here -->
+				<iframe width="100%" height="520" frameborder="0" src="https://nmp.carto.com/u/jeffreyelevy/builder/dfd6d073-3c57-47eb-a27a-4457357f9948/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+		</div>
+		<!-- Add 'Enlarge map' link using the iframe URL from above -->
+		<a href="https://nmp.carto.com/u/jeffreyelevy/builder/dfd6d073-3c57-47eb-a27a-4457357f9948/embed">Full-screen map</a>
+
+
+		<!-- Add 'Dowload data option' link to geojsons -->
+
+
+		<!--
+			Map comments. Interactivity and analysis are solid.
+			Could use a round function as you point out.
+			One aspect you could change is using the same resolution geometry.
+			For example, the ARC polygon is higher resolution than the county and state.
+			Also, is the line-join property set to round or miter for thick lines?
+			Just an FYI.
+		-->
+
+		<!-- Add you information below -->
+		<h2>Authored by: Jeff Levy, a student of New Maps Plus</h2>
+		<p>This map was produced in <a href="https://carto.com/">CARTO</a>, with layers from my MPH Capstone Defense paper,  <a href="https://uknowledge.uky.edu/cph_etds/181/"  target="new_window">An Ecologic Study of Access to Acute Stroke Care, Mortality and Its Correlates in the Stroke Belt</a>. Datasets are originally acquired from the <a href="https://nccd.cdc.gov/DHDSPAtlas/Reports.aspx" >Interactive Atlas of Heart Disease and Stroke</a>, and route information generated with <a href="http://www.esri.com/software/businessanalyst/get-started/saas" >ESRI Business Analyst</a> road data. Only hospitals certified as "Comprehensive Stroke Centers", "Primary Stroke Centers", or "Acute Stroke Ready Hospitals" by the <a href="https://www.jointcommission.org/" >Joint Commission</a> as of April 1, 2017 were considered for this study.  The map uses the Web Mercator (EPSG:3857) coordinate system. </p>
+
+		<ul>
+			<!-- Change the following contacts to your personal brand, whatever you want it to be! -->
+			<li>See my projects on GitHub: <a href="https://github.com/jeffreyelevy">jeffreyelevy</a></li>
+			<li>Follow me on twitter: <a href="https://twitter.com/NewMapsPlus">@NewMapsPlus</a></li>
+			<li>Visit my <a href='http://jeffreyelevy.github.io/'>mapping portfolio</a>.</li>
+		</ul>
+	</section>
+
+</body>
+
+</html>
